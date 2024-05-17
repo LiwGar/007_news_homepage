@@ -8,7 +8,23 @@ export default {
     './**/*.{html,js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Inter: ["Inter"]
+      },
+      colors: {
+        primary: {
+          softOrange: "hsl(35, 77%, 62%)",
+          softRed: "hsl(5, 85%, 63%)",
+        },
+        neutral: {
+          offWhite: "hsl(36, 100%, 99%)",
+          grayIsHBlue: "hsl(233, 8%, 79%)",
+          darkGrayIsHBlue: "hsl(236, 13%, 42%)",
+          veryDarkBlue: "hsl(240, 100%, 5%)",
+        }
+      }
+    },
   },
   plugins: [],
 }

@@ -1,13 +1,13 @@
+import Header from "./components/Header/index.jsx";
+
 function App() {
   
 
   return (
     <>
-      <h1 className="bg-blue-500 text-5xl font-bold underline">
-        Hello world!
-      </h1>
+      < Header/>
     </>
   )
 }
 
-export default App
+export default App;

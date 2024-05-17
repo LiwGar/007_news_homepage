@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
 
 ::-webkit-scrollbar {
   width: 0;
