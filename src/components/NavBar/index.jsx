@@ -1,7 +1,12 @@
-const NavBar = () => {
+// eslint-disable-next-line react/prop-types
+const NavBar = ({ isOpen }) => {
+
   return (
-    <nav className="">
-      <ul>
+
+    <nav className={`lg:flex ${isOpen ? 'block' : 'hidden'} bg-green-500 text-neutral-darkGrayIsHBlue 
+    //     text-[1.1rem] lg:w-[27.5rem`}>
+
+      <ul className="flex gap-9">
         <li>
           <a href="#home">Home</a>
         </li>
@@ -18,6 +23,7 @@ const NavBar = () => {
           <a href="#categories">Categories</a>
         </li>
       </ul>
+
     </nav>
   );
 }

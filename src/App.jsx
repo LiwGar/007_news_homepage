@@ -4,9 +4,9 @@ function App() {
   
 
   return (
-    <>
+    <div className="px-4 pt-7">
       < Header/>
-    </>
+    </div>
   )
 }
 
