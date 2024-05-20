@@ -4,7 +4,7 @@ const NavBar = ({ isOpen }) => {
   return (
 
     <nav className={`lg:flex ${isOpen ? 'block' : 'hidden'} bg-green-500 text-neutral-darkGrayIsHBlue 
-    //     text-[1.1rem] lg:w-[27.5rem`}>
+     text-[1.1rem] lg:w-[27.5rem`}>
 
       <ul className="flex gap-9">
         <li>

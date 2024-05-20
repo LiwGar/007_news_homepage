@@ -9,7 +9,8 @@ const Header = () => {
 
  return (
   <header 
-    className="flex justify-between items-center lg:place-content-between bg-blue-600">
+    className="flex justify-between items-center mb-[1.875rem] 
+    lg:place-content-between bg-blue-600">
 
       <img 
         src={logo} 
