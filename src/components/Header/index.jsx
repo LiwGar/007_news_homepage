@@ -10,7 +10,7 @@ const Header = () => {
  return (
   <header 
     className="flex justify-between items-center mb-[2.2rem] lg:mb-[3.375rem] 
-    lg:place-content-between">
+    lg:place-content-between 2xl:max-w-[1440px]">
 
       <img 
         src={logo} 

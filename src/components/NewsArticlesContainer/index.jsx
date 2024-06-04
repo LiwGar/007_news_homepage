@@ -4,11 +4,12 @@ const NewsContainer = () => {
 
   return (
 
-    <aside className="px-6 py-5 bg-neutral-veryDarkBlue text-neutral-grayIsHBlue
-    lg:h-[32.5rem]">
+    <aside 
+      className="px-6 py-7 bg-neutral-veryDarkBlue text-neutral-grayIsHBlue
+        xl:w-[25rem] xl:h-[38rem]">
 
       <h1 className="text-primary-softOrange text-[2.05rem] font-bold
-          lg:text-[2.45rem]">
+          lg:text-[2.2rem] xl:text-[2.45rem]">
         New
       </h1>
       < NewArticle
