@@ -1,32 +1,33 @@
-import retroPC from "../../assets/images/image-retro-pcs.jpg";
-
-const Article = () => {
+const Article = ({image, number, title,text}) => {
 
   return (
     <article>
       <section 
-        className="flex justify-content-center gap-6 border-2 border-red-500">
+        className="flex items-center mb-[1.2rem] gap-6 lg:gap-7 md:w-[24rem]">
 
-        <div>
+        <div 
+          className="flex-none">
           <img 
-            src={retroPC} 
-            alt="retroPCs_Img" />
+            src={image} 
+            alt="retroPCs_Img"
+            className="w-[6.375rem]" />
         </div>
         
         <div className="">
           <p 
-            className="mb-2 text-neutral-grayIsHBlue text-[2.26rem] font-bold">
-            01          
+            className="text-neutral-grayIsHBlue text-[2rem] leaning-none font-bold">
+            {number}       
           </p>
 
           <h2
-            className="mb-2 text-neutral-veryDarkBlue text-[1.26rem] font-bold">
-            Reviving Retro PCs
+            className="mb-2 text-neutral-veryDarkBlue text-[1.2rem] font-bold
+              hover:text-primary-softRed lg:text-[1.23rem]">
+            {title}
           </h2>
 
           <p 
-            className="text-neutral-darkGrayIsHBlue text-[1rem] lg:text-[1rem] xl:text-[1.14rem]">
-            What happens when old PCs are given modern upgrades?
+            className="pb-2 text-neutral-darkGrayIsHBlue text-[1.05rem] lg:text-[1.14rem]">
+            {text}
           </p>
         </div>
 

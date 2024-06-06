@@ -6,7 +6,7 @@ const MainArticle = () => {
   return (
     <main>
       <section 
-        className="mb-[4.6rem]">
+        className="mb-[3.8rem]">
 
         <picture >
             <source media="(max-width: 720px)" srcSet={imgWebMobile}/>
@@ -14,13 +14,13 @@ const MainArticle = () => {
             <img 
               src={imgWebMobile} 
               alt="img_Web_Mobile" 
-              className="mb-[1.875rem] xl:w-[52.8rem]"/>
+              className="mb-[1.875rem] xl:w-[52.2rem]"/>
         </picture>
 
         <div className="lg:flex">
           <div className="flex-1">
             <h1 className="mb-[1.625rem] text-neutral-veryDarkBlue text-5xl font-bold
-              lg:w-[19rem] lg:text-6xl xl:w-[26rem] xl:text-[4.6rem]">
+              lg:w-[19rem] lg:text-6xl xl:w-[24rem] xl:text-[4.3rem]">
               The Bright Future of Web 3.0?
             </h1>
           </div>
