@@ -5,7 +5,7 @@ const NewArticle = ({title, text}) => {
               last:border-none lg:pt-4 lg:pb-4 xl:pt-7 xl:pb-8">
       <section>
         <h2 
-          className="mt-2 mb-2 text-neutral-offWhite text-[1.26rem] leading-5 
+          className="my-2 text-neutral-offWhite text-[1.26rem] leading-5 
             font-bold tracking-[.03rem] cursor-pointer hover:text-primary-softOrange 
             lg:text-[1.2rem] xl:mb-4 xl:text-[1.4rem]
               ">

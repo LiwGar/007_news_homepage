@@ -5,7 +5,7 @@ const NewsContainer = () => {
   return (
 
     <aside 
-      className="px-6 py-7 bg-neutral-veryDarkBlue text-neutral-grayIsHBlue
+      className="px-6 py-7 mb-[4.6rem] bg-neutral-veryDarkBlue text-neutral-grayIsHBlue
         xl:w-[25rem] xl:h-[38rem]">
 
       <h1 className="text-primary-softOrange text-[2.05rem] font-bold

@@ -5,7 +5,8 @@ const MainArticle = () => {
 
   return (
     <main>
-      <section>
+      <section 
+        className="mb-[4.6rem]">
 
         <picture >
             <source media="(max-width: 720px)" srcSet={imgWebMobile}/>
@@ -33,7 +34,7 @@ const MainArticle = () => {
               But is it really fulfilling its promise?
             </p>
 
-            <button className="w-[11.925rem] h-[3.125rem] mb-[3.875rem] bg-primary-softRed
+            <button className="w-[11.925rem] h-[3.125rem] bg-primary-softRed
              text-neutral-offWhite text-[.9rem] font-semibold uppercase tracking-[.3rem]
               hover:bg-neutral-veryDarkBlue lg:mb-0 lg:p-0 xl:w-[14rem] xl:h-[3.4rem] 
               xl:text-[1rem]">
