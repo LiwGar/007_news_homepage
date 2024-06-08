@@ -1,13 +1,32 @@
-// eslint-disable-next-line react/prop-types
-const NavBar = ({ isOpen }) => {
+import iconMenuClose from "../../assets/images/icon-menu-close.svg";
+
+const NavBar = ({ isOpen, setIsOpen }) => {
   return (
     <nav
-      className={`lg:flex ${
-        isOpen ? "block" : "hidden"
-      } text-neutral-darkGrayIsHBlue 
-     text-[1.07rem] lg:w-[27.5rem xl:text-[1.2rem]`}
+      className={`text-neutral-darkGrayIsHBlue text-[1.07rem] lg:flex 
+        lg:gap-12 xl:text-[1.2rem] 
+        
+        ${
+          isOpen
+            ? "fixed w-[68%] h-full top-0 right-0 bg-neutral-offWhite"
+            : "hidden"
+        } 
+        lg:block`}
     >
-      <ul className="flex gap-12">
+      <div className="flex justify-between px-6 py-8 mb-12 cursor-pointer lg:hidden">
+        <span></span>
+        <img
+          src={iconMenuClose}
+          alt="icon_MenuClose"
+          className="w-[2rem]"
+          onClick={() => setIsOpen(false)}
+        />
+      </div>
+
+      <ul
+        className={`flex flex-col gap-4 lg:flex-row lg:gap-12 
+          ${isOpen ? "mt-4 px-6 font-semibold" : ""}`}
+      >
         <li className="hover:text-primary-softOrange">
           <a href="#home">Home</a>
         </li>
