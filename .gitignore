@@ -27,6 +27,7 @@
 .LSOverride
 .prettierignore
 
+.vscode
 .vscode/*
 !.vscode/extensions.json
 .idea
