@@ -12,12 +12,12 @@ const Article = ({ image, number, title, text }) => {
             {number}
           </p>
 
-          <h2
+          <h3
             className="mb-2 text-neutral-veryDarkBlue text-[1.2rem] font-bold
               hover:text-primary-softRed lg:text-[1.23rem]"
           >
             {title}
-          </h2>
+          </h3>
 
           <p className="pb-2 text-neutral-darkGrayIsHBlue text-[1.05rem] lg:text-[1.14rem]">
             {text}

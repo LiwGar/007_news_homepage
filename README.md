@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [News homepage]()
+- Live Site URL: [News homepage](https://liwgar.github.io/007_news_homepage/)
 
 ### Screenshot
 
@@ -73,4 +73,10 @@ The objective is:
 - Website - [LiwGAr](https://liwgar-portfolio.vercel.app/)
 - Frontend Mentor - [@Liwgar](https://www.frontendmentor.io/profile/LiwGar)
 
+## Solution 
 
+I've just completed a front-end coding challenge from @frontendmentor! 🎉
+
+You can see my solution here: https://www.frontendmentor.io/solutions/news-homepage-using-reactjs-and-tailwindcss-REyB0AzOSW
+
+Any suggestions on how I can improve are welcome!
